@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="title-box">
+        <h1 class="title">Quiz de TI</h1>
+        <form action="php/processa.php" method="POST">
+            <div class="input-name">
+                <input type="text" name="nome" placeholder="Insira seu nome">
+            </div>
+            <div class="questions">
+                <p>
+                    1. O termo Web (Word Wide Web) e Internet são sinônimos?<br><br> 	
+                        <input type="radio" name="um" value="sim">
+                        <label for="sim">Sim</label><br>
+                        <input type="radio" name="um" value="nao">
+                        <label for="nao">Não</label><br><br>
+                
+                    2. Qual destas opções não é uma linguagem de programação?<br><br> 	
+                        <input type="radio" name="dois" value="java">
+                        <label for="java">Java</label><br>
+                        <input type="radio" name="dois" value="kernel">
+                        <label for="kernel">Kernel</label><br>
+                        <input type="radio" name="dois" value="python">
+                        <label for="python">Python</label><br><br>
+
+                    3. O que significa largura de banda?<br><br> 	
+                        <input type="radio" name="tres" value="a">
+                        <label for="a">a. Número total de downloads que se pode efetuar durante o período de um mês</label><br>
+                        <input type="radio" name="tres" value="b">
+                        <label for="b">b. Espessura dos cabos que interligam redes de computadores públicas e/ou privadas</label><br>
+                        <input type="radio" name="tres" value="c">
+                        <label for="c">c. Quantidade de dados que podem ser transmitidos em um canal de comunicação, em um determinado intervalo de tempo</label><br><br>
+
+                    4. O que é uma Intranet?<br><br> 	
+                        <input type="radio" name="quatro" value="a">
+                        <label for="a">a. Rede de alta segurança e largura de banda<br>
+                        <input type="radio" name="quatro" value="b">
+                        <label for="b">b. Rede privada de computadores que usa tecnologias internet<br>
+                        <input type="radio" name="quatro" value="c">
+                        <label for="c">c. Rede sem fios de computadores<br><br>
+
+                    5. Java é uma linguagem orientada a objetos?<br><br> 
+                        <input type="radio" name="cinco" value="sim">
+                        <label for="sim">Sim</label><br>
+                        <input type="radio" name="cinco" value="não">
+                        <label for="nao">Não</label><br><br>
+                </p>
+                <div class="btn-box">
+                    <button class="sub" type="submit"><img class="sub1" src="img/submit.png"></button>
+				    <button class="res" type="reset"><img class="res1" src="img/reset.png"></button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
